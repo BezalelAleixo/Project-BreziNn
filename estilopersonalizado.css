@@ -1,0 +1,79 @@
+#logo{
+    margin-left: 2%;
+}
+body{
+    padding-left: 2%;
+    padding-right: 2%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*Area Principal*/
+#ContentPrincipal{
+    padding: 2%;
+}
+#areaAnuncio{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #66bb6a;
+    border-radius: 50px;
+}
+#areaCategorias{
+    display: flex;
+    overflow: auto;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.btncategoria{
+    height: 6vh;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #468049;
+    color: white;
+    border-radius: 30px;
+    
+}
+#areaProdutos{
+    display: flex;
+    flex-wrap: wrap;
+}
+#containerproduto{
+    display: flex;
+}
+#areaimgproduto{
+    height: 50vh;
+    width: 40%;
+    background: #5d5d5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+#areadescriçaoproduto{
+    height: 50vh;
+    width: 40%;
+    background: #76af6f;
+    margin: 2px;
+}
+#areacompraproduto{
+    height: 50vh;
+    width: 30%;
+    background: #3b5d4a;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content:space-around ;
+}
+
+
+
+/*area das Lojas
+*/
+.mapa{
+    width: 80%;
+    height: 70vh;
+}
